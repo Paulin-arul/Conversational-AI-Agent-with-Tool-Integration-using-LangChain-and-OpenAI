@@ -32,14 +32,7 @@ project1/
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/langchain-ai-agent.git
-cd langchain-ai-agent
-````
-
-### 2. Create a `.env` File
+### 1. Create a `.env` File
 
 Create a `.env` file in the root directory and add your OpenAI API key:
 
@@ -47,7 +40,7 @@ Create a `.env` file in the root directory and add your OpenAI API key:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 Make sure you're inside a virtual environment, then run:
 
@@ -62,7 +55,7 @@ If you're not using `uv`:
 pip install langchain langgraph langchain-openai python-dotenv
 ```
 
-### 4. Run the Application
+### 3. Run the Application
 
 ```bash
 uv run main.py
